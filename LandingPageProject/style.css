@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;     /*centers horizontally*/
+    align-items: center;     /*centers vertically*/
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+header ul  li{
+    padding: 15px;
+    font-size: 20px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.82);
+}
+
+header h1{
+    margin-top: 8px;
+}
+header h1 span{
+    color: rgb(2, 175, 2);
+}
+header a{
+    background-color:rgb(2, 175, 2);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 18px;
+    /* padding: top/bottom   left/right; */
+    border-radius: 5px;
+}
+
+/* elementname{
+    propertyname : propertyvalue;
+} */
+
+main{
+    width: 100%;
+    height: calc(100vh - 12vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #firstdiv{
+    width: 55%;
+    height: 90%;
+    padding: 0 100px;
+}
+main #seconddiv{
+    width: 45%;
+    height: 90%;
+}
+
+
+#firstdiv img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+#firstdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#firstdiv h1{
+    font-size: 50px;
+    display: inline;
+}
+#firstdiv div a{
+    font-size: 20px;
+    background-color: rgb(2, 175, 2);
+    text-decoration: none;
+    padding: 8px 18px;
+    color: white;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+#firstdiv #buttons{
+    margin-top: 50px;
+    margin-left: -380px;
+
+}
+
+#firstdiv p{
+    color: rgba(0, 0, 0, 0.726);
+}
+
+#seconddiv img{
+    margin-top: 50px;
+}
+/* Pseudo selector */
+header ul li:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+body a{
+    transition: 0.6s;
+}
+body a:hover{
+    background-color: rgb(30, 224, 30);
+    transform: scale(1.09);
+}
+
+/* size >> 1
+size  >> 1.02  */
